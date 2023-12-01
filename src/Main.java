@@ -7,13 +7,16 @@ public class Main {
 //        Singleton singleton2 = Singleton.getInstance("Jhonatan");
 //        System.out.println(singleton2.getName());
 
-        Restaurante restauranteMexicano = new ChefMexicano();
-        restauranteMexicano.ordenarSalchipapa();
+//        Restaurante restauranteMexicano = new ChefMexicano();
+//        restauranteMexicano.ordenarSalchipapa();
+//
+//        Restaurante restauranteColombiano = new ChefColombiano();
+//        restauranteColombiano.ordenarSalchipapa();
+//
+//        Restaurante restauranteArgentina = new ChefColombiano();
+//        restauranteArgentina.ordenarSalchipapa();
 
-        Restaurante restauranteColombiano = new ChefColombiano();
-        restauranteColombiano.ordenarSalchipapa();
+        System.out.println(Cadena.invertir("nairda"));
 
-        Restaurante restauranteArgentina = new ChefColombiano();
-        restauranteArgentina.ordenarSalchipapa();
     }
 }

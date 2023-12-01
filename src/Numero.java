@@ -16,4 +16,10 @@ public class Numero {
 
         return res;
     }
+
+    public static boolean isCapicua2(int n){
+        String cifras = String.valueOf(n);
+        if(cifras.equals(Cadena.invertir(cifras))) return true;
+        else return false;
+    }
 }

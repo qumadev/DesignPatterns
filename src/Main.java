@@ -18,5 +18,6 @@ public class Main {
 
 //        System.out.println(Cadena.invertir("nairda"));
         System.out.println(Numero.isCapicua(1235321));
+        System.out.println(Numero.isCapicua2(1235321));
     }
 }

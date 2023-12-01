@@ -16,7 +16,7 @@ public class Main {
 //        Restaurante restauranteArgentina = new ChefColombiano();
 //        restauranteArgentina.ordenarSalchipapa();
 
-        System.out.println(Cadena.invertir("nairda"));
-
+//        System.out.println(Cadena.invertir("nairda"));
+        System.out.println(Numero.isCapicua(1235321));
     }
 }
